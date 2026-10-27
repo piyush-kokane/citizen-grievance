@@ -1,0 +1,63 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local database files (may contain generated or private complaint data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated ML artifacts, datasets, and charts
+model_artifacts/
+artifacts/
+outputs/
+reports/generated/
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Build/package output
+build/
+dist/
+*.egg-info/
